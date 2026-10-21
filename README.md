@@ -1,4 +1,4 @@
-# python-full-stack-day-1-4-task
+# python-full-stack-task
 
 ## About the Project
 
@@ -87,3 +87,42 @@ Replace `even_odd.py` with the name of the program you want to run.
 ## Author
 
 Python Full Stack Development Practice Repository
+
+
+# Day 6 — HTML Fundamentals
+
+## Topics Covered
+
+- **Introduction to HTML:** HTML is used to create and structure webpages.
+- **HTML Document Structure:** Every HTML page contains basic elements like `html`, `head`, and `body`.
+- **Headings and Paragraphs:** Headings and paragraphs are used to display titles and text.
+- **Links and Images:** Links connect webpages, and images display pictures on a webpage.
+- **Lists and Tables:** Lists organize information, while tables display data in rows and columns.
+- **Forms and Input Fields:** Forms collect user information using different input fields.
+- **Semantic HTML Elements:** Semantic elements like `header`, `main`, and `footer` give meaning to webpage content.
+
+## Tasks Completed
+
+### 1. Personal Profile Webpage
+Created a personal webpage to display personal information, education, skills, and contact details using HTML elements.
+
+### 2. Student Registration Form
+Created a registration form to collect student details such as name, email, date of birth, gender, and course.
+
+### 3. Student Records Table
+Created an HTML table to display student records, including student ID, name, course, and email.
+
+### 4. Semantic HTML
+Used semantic HTML elements to organize webpage content and improve its structure.
+
+## Expected Output
+- A personal profile webpage displaying personal information.
+- A student registration form for collecting student details.
+
+## Technologies Used
+HTML, Notepad, and Web Browser.
+
+## How to Run
+Open the HTML files in a web browser to view the webpages.
+
+
