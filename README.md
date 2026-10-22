@@ -125,4 +125,38 @@ HTML, Notepad, and Web Browser.
 ## How to Run
 Open the HTML files in a web browser to view the webpages.
 
+# Day 7 - CSS Fundamentals
+
+## Project Description
+This project demonstrates CSS styling and responsive design for HTML webpages.
+
+## Topics Covered
+- **Introduction to CSS:** Learned how CSS is used to style HTML webpages.
+- **CSS Selectors and Properties:** Used selectors to apply styles to HTML elements.
+- **Colors and Backgrounds:** Added colors and background designs to webpages.
+- **Margin and Padding:** Used spacing to improve webpage layout.
+- **CSS Box Model:** Learned how content, padding, border, and margin work together.
+- **Flexbox:** Arranged webpage cards and elements using flexible layouts.
+- **Responsive Web Design:** Made webpages suitable for mobile and desktop screens.
+
+## Tasks Completed
+- **Personal Profile Page:** Created and styled a personal profile webpage.
+- **Student Registration Form:** Designed a registration form with input fields.
+- **Navigation Bar:** Created links to navigate between webpages.
+- **Flexbox Cards:** Arranged cards neatly using Flexbox.
+- **Responsive Design:** Adjusted webpage layout for different screen sizes.
+
+## Files Included
+- **index.html:** Contains the personal profile webpage.
+- **style.css:** Contains CSS styles for the webpages.
+- **registration.html:** Contains the student registration form.
+
+## How to Run
+1. Open the project folder.
+2. Double-click `index.html` to view the webpage in a browser.
+3. Click the Registration link to open the registration form.
+
+## Technologies Used
+- **HTML5:** Used to create the structure of webpages.
+- **CSS3:** Used to style and design webpages.
 
