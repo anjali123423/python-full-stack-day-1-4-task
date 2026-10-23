@@ -160,3 +160,33 @@ This project demonstrates CSS styling and responsive design for HTML webpages.
 - **HTML5:** Used to create the structure of webpages.
 - **CSS3:** Used to style and design webpages.
 
+
+# Day 8 - JavaScript Fundamentals
+
+## Topics
+- Introduction to JavaScript
+- Variables: var, let, and const
+- Data types and operators
+- Conditional statements and loops
+- Functions
+- Arrays and objects
+
+## Programs
+- Check even or odd numbers
+- Print numbers using loops
+- Perform basic calculations using functions
+- Perform array operations
+- Create and update object properties
+- Find the largest number
+- Calculate factorial
+
+## How to Run
+1. Open index.html in a web browser.
+2. Press F12 and select Console.
+3. View the JavaScript program outputs.
+
+## Expected Output
+Basic understanding of JavaScript fundamentals
+and practice programs using conditions, loops,
+functions, arrays, and objects.
+
