@@ -1,13 +1,244 @@
 
+
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Day 8 - JavaScript</title>
-</head>
-<body>
-    <h1>JavaScript Fundamentals</h1>
-    <p>Day 8 Practice Programs</p>
+    <title>Day 8 - JavaScript Fundamentals</title>
 
-    <script src="script.js"></script>
+    <style>
+        body {
+            background-color: #f0f4f8;
+            font-family: Arial, sans-serif;
+            padding: 30px;
+        }
+
+        h1 {
+            color: darkblue;
+            text-align: center;
+        }
+
+        h2 {
+            color: darkgreen;
+        }
+
+        #result {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            line-height: 1.8;
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>Day 8 - JavaScript Fundamentals</h1>
+
+<h2>Program Output</h2>
+<div id="result"></div>
+
+<script>
+
+let output = "";
+
+// 1. Variables and Data Types
+output += "1. VARIABLES AND DATA TYPES\n";
+let name = "Anjali";
+let age = 22;
+let course = "MCA";
+let student = true;
+
+output += "Name: " + name + "\n";
+output += "Age: " + age + "\n";
+output += "Course: " + course + "\n";
+output += "Student: " + student + "\n\n";
+
+// 2. Operators
+output += "2. ARITHMETIC OPERATORS\n";
+let a = 20;
+let b = 10;
+
+output += "Addition: " + (a + b) + "\n";
+output += "Subtraction: " + (a - b) + "\n";
+output += "Multiplication: " + (a * b) + "\n";
+output += "Division: " + (a / b) + "\n";
+output += "Modulus: " + (a % b) + "\n\n";
+
+// 3. Conditional Statements
+output += "3. CONDITIONAL STATEMENTS\n";
+let marks = 85;
+
+output += "Marks: " + marks + "\n";
+
+if (marks >= 90) {
+    output += "Grade: A+\n";
+} else if (marks >= 75) {
+    output += "Grade: A\n";
+} else if (marks >= 50) {
+    output += "Grade: B\n";
+} else {
+    output += "Grade: Fail\n";
+}
+
+output += "\n";
+
+// 4. For Loop
+output += "4. FOR LOOP\n";
+
+for (let i = 1; i <= 10; i++) {
+    output += "Number: " + i + "\n";
+}
+
+output += "\n";
+
+// 5. While Loop
+output += "5. WHILE LOOP\n";
+
+let count = 1;
+
+while (count <= 5) {
+    output += "Count: " + count + "\n";
+    count++;
+}
+
+output += "\n";
+
+// 6. Functions
+output += "6. FUNCTIONS\n";
+
+function add(x, y) {
+    return x + y;
+}
+
+function subtract(x, y) {
+    return x - y;
+}
+
+function multiply(x, y) {
+    return x * y;
+}
+
+output += "Addition: " + add(20, 10) + "\n";
+output += "Subtraction: " + subtract(20, 10) + "\n";
+output += "Multiplication: " + multiply(20, 10) + "\n\n";
+
+// 7. Arrays
+output += "7. ARRAY OPERATIONS\n";
+
+let fruits = ["Apple", "Banana", "Mango", "Orange"];
+
+output += "Original Array: " + fruits.join(", ") + "\n";
+
+fruits.push("Grapes");
+
+output += "After Adding: " + fruits.join(", ") + "\n";
+
+fruits.pop();
+
+output += "After Removing: " + fruits.join(", ") + "\n";
+
+output += "First Fruit: " + fruits[0] + "\n";
+output += "Total Fruits: " + fruits.length + "\n\n";
+
+// 8. Objects
+output += "8. OBJECT OPERATIONS\n";
+
+let studentDetails = {
+    name: "Anjali",
+    age: 22,
+    course: "MCA",
+    city: "Pune"
+};
+
+output += "Name: " + studentDetails.name + "\n";
+output += "Age: " + studentDetails.age + "\n";
+output += "Course: " + studentDetails.course + "\n";
+output += "City: " + studentDetails.city + "\n";
+
+studentDetails.age = 23;
+
+output += "Updated Age: " + studentDetails.age + "\n\n";
+
+// 9. Find Largest Number
+output += "9. FIND LARGEST NUMBER\n";
+
+function findLargest(x, y, z) {
+    if (x >= y && x >= z) {
+        return x;
+    } else if (y >= x && y >= z) {
+        return y;
+    } else {
+        return z;
+    }
+}
+
+output += "Numbers: 15, 40, 25\n";
+output += "Largest Number: " + findLargest(15, 40, 25) + "\n\n";
+
+// 10. Factorial
+output += "10. FACTORIAL PROGRAM\n";
+
+function factorial(n) {
+    let result = 1;
+
+    for (let i = 1; i <= n; i++) {
+        result = result * i;
+    }
+
+    return result;
+}
+
+output += "Factorial of 5: " + factorial(5) + "\n";
+output += "Factorial of 6: " + factorial(6) + "\n\n";
+
+// 11. Even and Odd Numbers
+output += "11. EVEN AND ODD NUMBERS\n";
+
+for (let i = 1; i <= 10; i++) {
+    if (i % 2 === 0) {
+        output += i + " is Even\n";
+    } else {
+        output += i + " is Odd\n";
+    }
+}
+
+output += "\n";
+
+// 12. Multiplication Table
+output += "12. MULTIPLICATION TABLE OF 5\n";
+
+for (let i = 1; i <= 10; i++) {
+    output += "5 x " + i + " = " + (5 * i) + "\n";
+}
+
+output += "\n";
+
+// 13. Sum of Numbers
+output += "13. SUM OF NUMBERS FROM 1 TO 10\n";
+
+let sum = 0;
+
+for (let i = 1; i <= 10; i++) {
+    sum += i;
+}
+
+output += "Total Sum: " + sum + "\n\n";
+
+// 14. Reverse a String
+output += "14. REVERSE A STRING\n";
+
+let word = "JavaScript";
+
+let reversed = word.split("").reverse().join("");
+
+output += "Original Word: " + word + "\n";
+output += "Reversed Word: " + reversed + "\n\n";
+
+// Display All Output
+document.getElementById("result").textContent = output;
+
+</script>
+
 </body>
 </html>
