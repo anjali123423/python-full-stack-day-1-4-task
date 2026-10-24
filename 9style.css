@@ -1,0 +1,55 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f4f8;
+    margin: 0;
+    padding: 30px;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px #cccccc;
+}
+
+h1 {
+    color: #243b55;
+    text-align: center;
+}
+
+input {
+    padding: 12px;
+    margin: 8px 0;
+    width: 95%;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+}
+
+button {
+    padding: 12px 20px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+.student {
+    background: #eaf2ff;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 6px;
+}
+
+#statistics {
+    background: #e6f7ec;
+    padding: 15px;
+    border-radius: 6px;
+}

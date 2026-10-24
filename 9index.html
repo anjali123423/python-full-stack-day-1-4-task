@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 9 - Advanced JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Student Management System</h1>
+        <p>Advanced JavaScript Practice</p>
+
+        <form id="studentForm">
+            <input type="text" id="studentName"
+                   placeholder="Enter student name" required>
+
+            <input type="number" id="studentMarks"
+                   placeholder="Enter marks (0-100)"
+                   min="0" max="100" required>
+
+            <button type="submit">Add Student</button>
+        </form>
+
+        <input type="text" id="search"
+               placeholder="Search student">
+
+        <h2>Student List</h2>
+        <div id="studentList"></div>
+
+        <h2>Class Statistics</h2>
+        <div id="statistics"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
