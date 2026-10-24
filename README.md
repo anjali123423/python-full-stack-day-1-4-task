@@ -190,3 +190,28 @@ Basic understanding of JavaScript fundamentals
 and practice programs using conditions, loops,
 functions, arrays, and objects.
 
+
+# Day 9 - Advanced JavaScript
+
+This project demonstrates advanced JavaScript concepts through an interactive Student Management System.
+
+## Features
+- Add students with their marks.
+- Search students by name.
+- Display student grades and class statistics.
+- Practice DOM manipulation and event handling.
+- Use map, filter, and reduce array methods.
+- Demonstrate promises, async/await, and Fetch API.
+
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+
+## How to Run
+Open the index.html file in a web browser.
+
+## Output
+An interactive webpage that displays student details,
+grades, and class statistics.
+
